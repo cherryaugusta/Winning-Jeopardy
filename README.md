@@ -15,4 +15,4 @@ The dataset includes the following key columns:
 - **Question**: The text of the trivia question posed to the contestants.
 - **Answer**: The correct response to the question.
 
-The goal of this analysis is to uncover trends and insights that could help develop strategies for improving performance on Jeopardy.
+The goal of this analysis is to uncover trends and insights that could inform strategies for succeeding on Jeopardy.
