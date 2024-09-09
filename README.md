@@ -1,9 +1,9 @@
 # Winning Jeopardy: A Statistical Analysis
 ## Data Introduction
 
-In this project, titled **Winning Jeopardy**, the focus is on analyzing the American TV show Jeopardy. This program, a notable fixture in U.S. popular culture, is well-known for its challenging trivia questions and the appeal of cash prizes. The objective is to identify patterns within the questions that may provide contestants with a strategic advantage.
+This analysis, titled **Winning Jeopardy**, focuses on the American TV show *Jeopardy*, a prominent part of U.S. popular culture known for its challenging trivia questions and cash prizes. The objective is to identify patterns within the questions that may provide contestants with a strategic advantage.
 
-The analysis utilizes a dataset named `jeopardy.csv`, which includes 20,000 rows sampled from a comprehensive collection of Jeopardy questions. Each row represents a single question from a specific episode of the show, reflecting the diverse and complex nature of the game's format. The dataset is available for download at [this link https://www.reddit.com/r/datasets/comments/1uyd0t/200000_jeopardy_questions_in_a_json_file/). 
+The dataset used for the analysis, `jeopardy.csv`, consists of 20,000 rows sampled from a comprehensive collection of Jeopardy questions. Each row represents a single question from a specific episode, reflecting the show's diverse and complex format. The dataset can be accessed at [this link https://www.reddit.com/r/datasets/comments/1uyd0t/200000_jeopardy_questions_in_a_json_file/). 
 
 The dataset includes the following key columns:
 
@@ -17,14 +17,20 @@ The dataset includes the following key columns:
 
 The goal of this analysis is to uncover trends and insights that could inform strategies for succeeding on Jeopardy.
 
+**Key Tools**: Python (Pandas, NumPy, Regular Expressions, Random, SciPy)
+
 ## Exploratory Data Analysis
-### Key Tools: Python (Pandas, NumPy, Regular Expressions, Random, SciPy)
-
 ### Recycled Questions
-On average, the answer accounts for only about 6% of the question. This is a relatively small portion, suggesting that simply hearing a question isn't enough to reliably identify the correct answer. It implies that studying will likely be necessary.
+On average, the correct answer constitutes only about 6% of the total text of a question. This suggests that simply hearing a question is not sufficient to reliably identify the correct answer, indicating the need for study and preparation.
 
-### Low Value vs. High Value Questions
-Approximately `70%` of the terms in new questions also appear in previous questions. This analysis is based on a limited sample and focuses on individual terms rather than entire phrases, making its significance somewhat limited. However, this overlap suggests that further exploration into the repetition of questions could be valuable.
+### Low-Value vs. High-Value Questions
+Approximately 70% of the terms in new questions also appear in previous questions. This analysis is based on a limited sample and focuses on individual terms rather than entire phrases, which limits its significance. However, this overlap suggests that further exploration into the repetition of questions could provide useful insights.
 
 ## Chi-Squared Analysis
-There were no notable differences in term usage between high-value and low-value rows. Additionally, the chi-squared test's reliability is uncertain because all frequencies were below `5`. It would be more suitable to perform this test again with terms that have higher frequencies.
+No notable differences in term usage were found between high-value and low-value questions. Furthermore, the chi-squared test's reliability is questionable, as all term frequencies were below 5. To improve the accuracy of this test, it would be beneficial to conduct the analysis using terms with higher frequencies.
+
+## Conclusion
+
+This analysis of Jeopardy questions reveals several key insights that could inform strategies for competing on the show. The high degree of term overlap between new and previous questions suggests that studying past questions may be beneficial. However, the limited difference in term usage between high-value and low-value questions implies that the complexity of Jeopardy questions may not significantly vary by monetary value, challenging the assumption that high-value questions are inherently more difficult.
+
+While the chi-squared analysis did not produce strong conclusions due to low frequencies, future analyses could address this by focusing on more commonly used terms. Overall, a targeted study approach—particularly of recurring terms—appears to offer contestants a strategic advantage when preparing for Jeopardy.
