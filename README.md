@@ -16,3 +16,15 @@ The dataset includes the following key columns:
 - **Answer**: The correct response to the question.
 
 The goal of this analysis is to uncover trends and insights that could inform strategies for succeeding on Jeopardy.
+
+## Exploratory Data Analysis
+### Key Tools: Python (Pandas, NumPy, Regular Expressions, Random, SciPy)
+
+### Recycled Questions
+On average, the answer accounts for only about 6% of the question. This is a relatively small portion, suggesting that simply hearing a question isn't enough to reliably identify the correct answer. It implies that studying will likely be necessary.
+
+### Low Value vs. High Value Questions
+Approximately `70%` of the terms in new questions also appear in previous questions. This analysis is based on a limited sample and focuses on individual terms rather than entire phrases, making its significance somewhat limited. However, this overlap suggests that further exploration into the repetition of questions could be valuable.
+
+## Chi-Squared Analysis
+There were no notable differences in term usage between high-value and low-value rows. Additionally, the chi-squared test's reliability is uncertain because all frequencies were below `5`. It would be more suitable to perform this test again with terms that have higher frequencies.
