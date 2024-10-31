@@ -1,4 +1,7 @@
 # Winning Jeopardy: A Statistical Analysis
+
+This project is based on a guided project from Dataquest, originally titled ["Winning Jeopardy"](https://www.dataquest.io/projects/guided-project-a-winning-jeopardy/). I have completed and expanded upon the project to showcase my own statistical analysis and insights.
+
 ## Data Introduction
 
 This analysis, titled **Winning Jeopardy**, focuses on the American TV show *Jeopardy*, a prominent part of U.S. popular culture known for its challenging trivia questions and cash prizes. The objective is to identify patterns within the questions that may provide contestants with a strategic advantage.
@@ -34,3 +37,7 @@ No notable differences in term usage were found between high-value and low-value
 This analysis of Jeopardy questions reveals several key insights that could inform strategies for competing on the show. The high degree of term overlap between new and previous questions suggests that studying past questions may be beneficial. However, the limited difference in term usage between high-value and low-value questions implies that the complexity of Jeopardy questions may not significantly vary by monetary value, challenging the assumption that high-value questions are inherently more difficult.
 
 While the chi-squared analysis did not produce strong conclusions due to low frequencies, future analyses could address this by focusing on more commonly used terms. Overall, a targeted study approach—particularly of recurring terms—appears to offer contestants a strategic advantage when preparing for Jeopardy.
+
+## Disclaimer
+
+This project is based on learning materials from Dataquest and is shared for educational and portfolio purposes only.
