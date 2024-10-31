@@ -1,6 +1,6 @@
 # Winning Jeopardy: A Statistical Analysis
 
-This project is based on a guided project from Dataquest, originally titled ["Winning Jeopardy"](https://www.dataquest.io/projects/guided-project-a-winning-jeopardy/). I have completed and expanded upon the project to showcase my own statistical analysis and insights.
+This project is based on a guided project from Dataquest, originally titled ["Winning Jeopardy"](https://www.dataquest.io/projects/guided-project-a-winning-jeopardy/). I have completed and expanded upon the project to showcase my own statistical analysis and insights. This project is shared for educational and portfolio purposes only.
 
 ## Data Introduction
 
